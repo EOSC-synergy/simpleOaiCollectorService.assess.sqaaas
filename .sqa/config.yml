@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-vermilion-boar.sh
-        container: qc.acc_grumpy-apricot-beetle
+        - /usr/bin/env sh .sqa/script.pasty-bistre-kakapo.sh
+        container: qc.acc_messy-silver-beetle
   QC.Doc:
     repos:
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-champagne-newfoundland.sh
-        container: qc.doc_skanky-ultramarine-ant
+        - /usr/bin/env sh .sqa/script.jumpy-pumpkin-chameleon.sh
+        container: qc.doc_scaly-lime-dhole
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService git:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-eggplant-ray.sh
-        container: qc.doc_breezy-goldenrod-vole
+        - /usr/bin/env sh .sqa/script.seedy-tomato-earwig.sh
+        container: qc.doc_grumpy-rust-stingray
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-persimmon-walrus.sh
-        container: qc.doc_bumpy-heliotrope-civet
+        - /usr/bin/env sh .sqa/script.scummy-denim-jackal.sh
+        container: qc.doc_geeky-tan-butterfly
   QC.Lic:
     repos:
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-cerise-schnauzer.sh
-        container: qc.lic_paltry-charcoal-cuscus
+        - /usr/bin/env sh .sqa/script.droopy-azure-ferret.sh
+        container: qc.lic_squirrely-viridian-barracuda
   QC.Sty:
     repos:
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService checkstyle:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-cobalt-gibbon.sh
-        container: qc.sty_randy-wheat-squirt
+        - /usr/bin/env sh .sqa/script.hasty-olive-squirrel.sh
+        container: qc.sty_chewy-goldenrod-warthog
   QC.Ver:
     repos:
       code-repo.d4science.org/michele.artini/simpleOaiCollectorService get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-linen-tarantula.sh
-        container: qc.ver_silly-sapphire-chihuahua
+        - /usr/bin/env sh .sqa/script.muggy-plum-coyote.sh
+        container: qc.ver_dorky-alizarin-antelope
 timeout: 5400
